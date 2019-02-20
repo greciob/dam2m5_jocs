@@ -12,7 +12,6 @@ namespace Jocs
 {
     public partial class FrmPedra : Form
     {
-        public EventHandler esticTancant;
         public Int16 resultatJugador = 0;
         public Int16 resultatMaquina = 0;
 
@@ -23,7 +22,7 @@ namespace Jocs
 
         private void FrmPedra_FormClosed(object sender, FormClosedEventArgs e)
         {
-            esticTancant(this, EventArgs.Empty);
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)

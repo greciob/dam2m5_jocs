@@ -58,14 +58,14 @@
             // elPenjatToolStripMenuItem
             // 
             this.elPenjatToolStripMenuItem.Name = "elPenjatToolStripMenuItem";
-            this.elPenjatToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.elPenjatToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.elPenjatToolStripMenuItem.Text = "El Penjat";
             this.elPenjatToolStripMenuItem.Click += new System.EventHandler(this.elPenjatToolStripMenuItem_Click);
             // 
             // pedraPaperTisoraToolStripMenuItem
             // 
             this.pedraPaperTisoraToolStripMenuItem.Name = "pedraPaperTisoraToolStripMenuItem";
-            this.pedraPaperTisoraToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.pedraPaperTisoraToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.pedraPaperTisoraToolStripMenuItem.Text = "Pedra, paper, tisora";
             this.pedraPaperTisoraToolStripMenuItem.Click += new System.EventHandler(this.pedraPaperTisoraToolStripMenuItem_Click);
             // 
@@ -79,6 +79,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmMain";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

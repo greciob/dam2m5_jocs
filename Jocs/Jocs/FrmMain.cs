@@ -12,7 +12,6 @@ namespace Jocs
 {
     public partial class FrmMain : Form
     {
-        FrmPedra fpedra = null;
         FrmPenjat fpenjat = null;
         public FrmMain()
         {
@@ -38,19 +37,33 @@ namespace Jocs
 
         private void pedraPaperTisoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (fpedra == null)
+            if (obert_finestra("FrmPedra") == false)
             {
-                fpedra = new FrmPedra();
-                fpedra.esticTancant += new EventHandler(tancarFormPedra);
-                fpedra.MdiParent = this;
+                FrmPedra pedra = new FrmPedra();
+                pedra.MdiParent = this;
+                pedra.Show();
             }
-            fpedra.Show();
-            fpedra.Focus();
         }
 
-        private void tancarFormPedra(object sender, EventArgs e)
+        Boolean obert_finestra(String xnom_frm)
         {
-            fpenjat = null;
+
+            Boolean xb = false;
+
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name.Equals(xnom_frm))
+                {
+                    xb = true;
+                }
+            }
+
+            return xb;
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
