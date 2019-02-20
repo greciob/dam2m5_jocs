@@ -13,6 +13,9 @@ namespace Jocs
     public partial class FrmPedra : Form
     {
         public EventHandler esticTancant;
+        public Int16 resultatJugador = 0;
+        public Int16 resultatMaquina = 0;
+
         public FrmPedra()
         {
             InitializeComponent();
@@ -79,48 +82,69 @@ namespace Jocs
 
             if (rbPedra.Checked == true && seleccio_maquina == 1)
             {
+                radioButton4.Checked = true;
                 guanyador = 2;  //empat pedra & pedra
             }
 
             if (rbPedra.Checked == true && seleccio_maquina == 2)
             {
+                radioButton5.Checked = true;
+                resultatMaquina++;
+                label4.Text = String.Format("CPU: {0}", resultatMaquina);
                 guanyador = 1;  //has perdut jugador guanya la maquina
             }
 
             if (rbPedra.Checked == true && seleccio_maquina == 3)
             {
+                radioButton6.Checked = true;
+                resultatJugador++;
+                label3.Text = String.Format("Jugador: {0}", resultatJugador);
                 guanyador = 0;  //guanya el jugador a les tisores!
             }
 
             //condicions de paper
             if (rbPaper.Checked == true && seleccio_maquina == 1)
             {
+                radioButton4.Checked = true;
+                resultatJugador++;
+                label3.Text = String.Format("Jugador: {0}", resultatJugador);
                 guanyador = 0;  //empat pedra & pedra
             }
 
             if (rbPaper.Checked == true && seleccio_maquina == 2)
             {
+                radioButton5.Checked = true;
                 guanyador = 2;  //has perdut jugador guanya la maquina
             }
 
             if (rbPaper.Checked == true && seleccio_maquina == 3)
             {
+                radioButton6.Checked = true;
+                resultatMaquina++;
+                label4.Text = String.Format("CPU: {0}", resultatMaquina);
                 guanyador = 1;  //guanya el jugador a les tisores!
             }
 
             //condicions de tisores
             if (rbTisora.Checked == true && seleccio_maquina == 1)
             {
+                radioButton4.Checked = true;
+                resultatJugador++;
+                label4.Text = String.Format("CPU: {0}", resultatMaquina);
                 guanyador = 1;  //empat pedra & pedra
             }
 
             if (rbTisora.Checked == true && seleccio_maquina == 2)
             {
+                radioButton5.Checked = true;
+                resultatJugador++;
+                label3.Text = String.Format("Jugador: {0}", resultatJugador);
                 guanyador = 0;  //has perdut jugador guanya la maquina
             }
 
             if (rbTisora.Checked == true && seleccio_maquina == 3)
             {
+                radioButton6.Checked = true;
                 guanyador = 2;  //guanya el jugador a les tisores!
             }
 
