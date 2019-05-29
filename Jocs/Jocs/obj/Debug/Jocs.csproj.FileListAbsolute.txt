@@ -1,0 +1,12 @@
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\bin\Debug\Jocs.exe.config
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\bin\Debug\Jocs.exe
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\bin\Debug\Jocs.pdb
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.csprojAssemblyReference.cache
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.FrmMain.resources
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.FrmPedra.resources
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.FrmPenjat.resources
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.Properties.Resources.resources
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.csproj.GenerateResource.cache
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.csproj.CoreCompileInputs.cache
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.exe
+C:\Users\akroma\Documents\GitHub\dam2m5_jocs\Jocs\Jocs\obj\Debug\Jocs.pdb
